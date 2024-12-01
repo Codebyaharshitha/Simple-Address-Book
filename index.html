@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Address Book</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Address Book</h1>
+
+    <div class="form-container">
+      <input type="text" id="name" placeholder="Name" />
+      <input type="text" id="phone" placeholder="Phone" />
+      <input type="email" id="email" placeholder="Email" />
+      <button onclick="addContact()">Add Contact</button>
+    </div>
+
+    <h2>Contacts</h2>
+    <div id="contacts-list">
+      <!-- Contacts will appear here -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
